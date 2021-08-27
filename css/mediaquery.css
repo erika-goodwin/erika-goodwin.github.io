@@ -1,0 +1,512 @@
+/* Smartphone */
+@media (max-width: 500px) {
+  /*----------------------------------------------------*/
+  /*  PREREQUISITES                                     */
+  /*----------------------------------------------------*/
+
+  section {
+    padding-top: 1rem;
+  }
+
+  h2:after {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 0px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+  }
+  h4 {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* Button */
+  .btn {
+    background-color: #d7a48f;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 2rem;
+  }
+  .btn-b {
+    width: 13rem;
+  }
+  .btn-m {
+    width: 8rem;
+    margin: 0 auto;
+  }
+  .btn-b a {
+    font-size: 1.1rem;
+  }
+  .btn-m a {
+    font-size: 0.9rem;
+  }
+
+  /*----------------------------------------------------*/
+  /*  HEADER                                            */
+  /*----------------------------------------------------*/
+
+  .top-left {
+    display: none;
+  }
+
+  #myLinks {
+    display: none;
+  }
+
+  /* hamburger */
+  #mylinks li a ion-icon {
+    font-size: 40rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hiddenlinks {
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+  .hiddenlinks li {
+    display: inline;
+  }
+  /*----------------------------------------------------*/
+  /*  SECTION HERO                                      */
+  /*----------------------------------------------------*/
+  .section-hero {
+    height: 65vh;
+  }
+
+  .section-hero div {
+    /* margin-top: 30vh; */
+    margin-top: 10rem;
+    text-align: center;
+  }
+
+  .section-hero h1 {
+    color: #fff;
+    /* h-shadow | v-shadow | blur | color */
+    text-shadow: 0.3rem 0.3rem 0.5rem #d7a48f;
+  }
+  /*----------------------------------------------------*/
+  /*  SECTION HERO-below                                */
+  /*----------------------------------------------------*/
+
+  .hero-below {
+    height: 40vh;
+
+    padding: 0 3%;
+    margin-top: -3rem;
+    /* z-index: 100; */
+  }
+  /*----------------------------------------------------*/
+  /*  SECTION FEATURE                                   */
+  /*----------------------------------------------------*/
+  .section-feature {
+    margin-top: 4rem;
+    height: 100vh;
+    width: 100%;
+
+    padding: 0 5%;
+  }
+  .feature-left,
+  .feature-rtop,
+  .feature-rbot {
+    padding: 0.2rem;
+  }
+  /* Boxes position */
+
+  .feature-left {
+    width: 90%;
+    height: 30%;
+
+    position: absolute;
+    top: 0;
+    left: 5%;
+  }
+  .feature-box {
+    height: 30%;
+  }
+  .feature-rtop {
+    width: 90%;
+    height: 100%;
+
+    position: absolute;
+    top: 32%;
+    right: 5%;
+  }
+  .feature-rbot {
+    width: 90%;
+    height: 100%;
+
+    position: absolute;
+    top: 64%;
+    right: 5%;
+  }
+  .imgbody {
+    object-position: 75% 50%;
+  }
+
+  /*----------------------------------------------------*/
+  /*  SECTION NEWs                                      */
+  /*----------------------------------------------------*/
+
+  .section-news p {
+    padding: 1rem 5%;
+  }
+
+  /*----------------------------------------------------*/
+  /*  SECTION NEW PRODUCT                               */
+  /*----------------------------------------------------*/
+  .flex-box {
+    width: 100%;
+    height: 20rem;
+  }
+  /*----------------------------------------------------*/
+  /*  FOOTER                                            */
+  /*----------------------------------------------------*/
+  .footer-flex {
+    padding: 1rem 5%;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .column-box {
+    width: 50%;
+    padding-bottom: 2rem;
+  }
+
+  .quick-links,
+  .payment-methods {
+    width: 50%;
+  }
+
+  .footer-bot {
+    padding: 2rem 5% 1rem 5%;
+
+    flex-wrap: wrap;
+  }
+  .footer-bot h2:after {
+    margin-left: 0.3rem;
+  }
+}
+
+/* tablet */
+@media (min-width: 501px) and (max-width: 768px) {
+  /*----------------------------------------------------*/
+  /*  PREREQUISITES                                     */
+  /*----------------------------------------------------*/
+
+  section {
+    padding-top: 2rem;
+  }
+
+  h2:after {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 0px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+  }
+  h4 {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* Button */
+
+  .btn-b {
+    width: 15rem;
+  }
+  .btn-m {
+    width: 12rem;
+    margin: 0 auto;
+  }
+  .btn-b a {
+    font-size: 1.5rem;
+  }
+  .btn-m a {
+    font-size: 1rem;
+  }
+
+  /*----------------------------------------------------*/
+  /*  HEADER                                            */
+  /*----------------------------------------------------*/
+
+  .top-left {
+    display: none;
+  }
+
+  #myLinks {
+    display: none;
+  }
+
+  /* hamburger */
+  #mylinks li a ion-icon {
+    font-size: 40rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hiddenlinks {
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+  .hiddenlinks li {
+    display: inline;
+  }
+  /*----------------------------------------------------*/
+  /*  SECTION HERO                                      */
+  /*----------------------------------------------------*/
+  .section-hero {
+    height: 85vh;
+  }
+
+  .section-hero div {
+    /* margin-top: 30vh; */
+    margin-top: 14rem;
+    text-align: center;
+  }
+  .feature-left img {
+    object-position: 50% 40%;
+  }
+
+  .section-hero h1 {
+    color: #fff;
+    /* h-shadow | v-shadow | blur | color */
+    text-shadow: 0.3rem 0.3rem 0.5rem #d7a48f;
+  }
+  /*----------------------------------------------------*/
+  /*  SECTION HERO-below                                */
+  /*----------------------------------------------------*/
+
+  .hero-below {
+    height: 40vh;
+
+    padding: 0 3%;
+    margin-top: -3rem;
+    /* z-index: 100; */
+  }
+  /*----------------------------------------------------*/
+  /*  SECTION FEATURE                                   */
+  /*----------------------------------------------------*/
+  .section-feature {
+    margin-top: 4rem;
+    height: 100vh;
+    width: 100%;
+
+    padding: 0 5%;
+  }
+  .feature-left,
+  .feature-rtop,
+  .feature-rbot {
+    padding: 0.2rem;
+  }
+  /* Boxes position */
+
+  .feature-left {
+    width: 90%;
+    height: 30%;
+
+    position: absolute;
+    top: 0;
+    left: 5%;
+  }
+  .feature-box {
+    height: 30%;
+  }
+  .feature-rtop {
+    width: 90%;
+    height: 100%;
+
+    position: absolute;
+    top: 32%;
+    right: 5%;
+  }
+  .feature-rbot {
+    width: 90%;
+    height: 100%;
+
+    position: absolute;
+    top: 64%;
+    right: 5%;
+  }
+  .imgbody {
+    object-position: 75% 50%;
+  }
+
+  /*----------------------------------------------------*/
+  /*  SECTION NEW PRODUCT                               */
+  /*----------------------------------------------------*/
+  .flex-box {
+    width: 100%;
+    height: 20rem;
+  }
+  /*----------------------------------------------------*/
+  /*  FOOTER                                            */
+  /*----------------------------------------------------*/
+  .footer-flex {
+    padding: 1rem 5%;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .column-box {
+    width: 50%;
+    padding-bottom: 2rem;
+  }
+
+  .quick-links,
+  .payment-methods {
+    width: 50%;
+  }
+
+  .footer-bot {
+    padding: 2rem 5% 1rem 5%;
+
+    flex-wrap: wrap;
+  }
+  .footer-bot h2:after {
+    margin-left: 1rem;
+  }
+}
+
+/* Normal */
+@media (min-width: 769px) and (max-width: 1200px) {
+  /*----------------------------------------------------*/
+  /*  PREREQUISITES                                     */
+  /*----------------------------------------------------*/
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+    padding-bottom: 0.5rem;
+  }
+  h4 {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* Button */
+
+  .btn-b {
+    width: 18rem;
+  }
+  .btn-m {
+    width: 12rem;
+    margin: 0 auto;
+  }
+  .btn-b a {
+    font-size: 2rem;
+  }
+  .btn-m a {
+    font-size: 1rem;
+  }
+  /*----------------------------------------------------*/
+  /*  HEADER                                            */
+  /*----------------------------------------------------*/
+  #myLinks {
+    display: none;
+  }
+  /* hamburger */
+  .humburger {
+    display: none;
+  }
+
+  /*----------------------------------------------------*/
+  /*  SECTION HERO-below                                */
+  /*----------------------------------------------------*/
+
+  .hero-below {
+    height: 40vh;
+
+    padding: 0 3%;
+    margin-top: -3rem;
+    /* z-index: 100; */
+  }
+  /*----------------------------------------------------*/
+  /*  SECTION FEATURE                                   */
+  /*----------------------------------------------------*/
+  .section-feature {
+    margin-top: 4rem;
+    height: 60vh;
+
+    padding: 0 5%;
+  }
+  .feature-left {
+    height: 60vh;
+  }
+  .imgbody {
+    object-position: 75% 50%;
+  }
+  /*----------------------------------------------------*/
+  /*  SECTION NEW PRODUCT                               */
+  /*----------------------------------------------------*/
+  .flex-box {
+    height: 20rem;
+  }
+  /*----------------------------------------------------*/
+  /*  FOOTER                                            */
+  /*----------------------------------------------------*/
+  .quick-links,
+  .payment-methods {
+    width: 20%;
+  }
+}
+
+/* widescreen */
+@media (min-width: 1201px) {
+  /*----------------------------------------------------*/
+  /*  HEADER                                            */
+  /*----------------------------------------------------*/
+  #myLinks {
+    display: none;
+  }
+  /* hamburger */
+  .humburger {
+    display: none;
+  }
+}
+
+/* Landscape */
+@media (mix-height: 768px) {
+  /*----------------------------------------------------*/
+  /*  HEADER                                            */
+  /*----------------------------------------------------*/
+  #myLinks {
+    display: none;
+  }
+  /* hamburger */
+  .humburger {
+    display: none;
+  }
+}

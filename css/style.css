@@ -1,0 +1,461 @@
+.\? {
+  box-shadow: inset 4px 4px rgb(236, 15, 170), inset -4px -4px rgb(236, 15, 170);
+}
+
+/*----------------------------------------------------*/
+/*  PREREQUISITES                                     */
+/*----------------------------------------------------*/
+
+/* target all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  /* background-color: #fff; */
+  /* color: #252525; */
+  font-family: "Kaisei Tokumin", serif;
+}
+
+.row {
+  padding: 0 10%;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+/* Font basic setting */
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 4rem;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+h4 {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+}
+
+h5,
+h6,
+p,
+li {
+  text-transform: capitalize;
+  padding-bottom: 0.5rem;
+}
+
+/*----------------------------------------------------*/
+/*  PREREQUISITES                                     */
+/*----------------------------------------------------*/
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #d7a48f;
+  content: " ";
+  width: 150px;
+  margin: 0 auto;
+  margin-top: -5px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover,
+.column-box li a:hover,
+.column-box li a ion-icon:hover,
+.bot-links li a:hover {
+  color: #d7a48f;
+}
+
+/* Primary color set */
+
+.bg-gry {
+  background: #4d4d4d;
+  color: rgb(255, 255, 255);
+}
+
+.bg-light {
+  background: #fff;
+  color: #333;
+}
+
+/* Button */
+.btn {
+  background-color: #d7a48f;
+  padding: 0 3rem;
+  border: none;
+  border-radius: 2rem;
+}
+.btn:hover {
+  background-color: #aa806f;
+}
+
+.btn-b {
+  width: 30rem;
+}
+.btn-m {
+  width: 15rem;
+  margin: 0 auto;
+}
+.btn-b a {
+  color: #fff;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3rem;
+}
+.btn-m a {
+  color: #fff;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.5rem;
+}
+
+/*----------------------------------------------------*/
+/*  HEADER                                            */
+/*----------------------------------------------------*/
+.top-header {
+  /* display: inline-block; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.top-header div {
+  text-align: center;
+  width: 30%;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.top-left,
+.top-location {
+  padding-top: 1.5rem;
+}
+.top-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.top-left li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 0.8rem;
+}
+.top-location {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.top-location p {
+  padding-right: 0.5rem;
+}
+.top-location ion-icon {
+  font-size: 1rem;
+}
+
+/* hidden navigation */
+.hiddenlinks ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.hiddenlinks li {
+  list-style: none;
+  display: inline;
+  padding-left: 1rem;
+}
+
+/* NAVIGATION */
+.navigation {
+  padding: 1rem 0;
+}
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navigation li {
+  list-style: none;
+  display: inline;
+  padding-left: 1rem;
+}
+
+/*----------------------------------------------------*/
+/*  SECTION HERO                                      */
+/*----------------------------------------------------*/
+.section-hero {
+  background: url(../img/hero-top.jpg) no-repeat center center/cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.section-hero div {
+  /* margin-top: 30vh; */
+  margin-top: 20rem;
+  text-align: center;
+}
+
+.section-hero h1 {
+  color: #fff;
+  /* h-shadow | v-shadow | blur | color */
+  text-shadow: 0.3rem 0.3rem 0.5rem #d7a48f;
+}
+
+/*----------------------------------------------------*/
+/*  SECTION HERO-below                                */
+/*----------------------------------------------------*/
+
+.hero-below {
+  height: 60vh;
+  width: 100%;
+  padding: 0 5%;
+  margin-top: -5rem;
+  /* z-index: 100; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hero-below img {
+  height: 100%;
+}
+
+.hero-below-img1 {
+  width: 60%;
+}
+.hero-below-img1 img {
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 80%;
+}
+
+.hero-below-img2 {
+  width: 30%;
+}
+.hero-below-img2 img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/*----------------------------------------------------*/
+/*  SECTION FEATURE                                   */
+/*----------------------------------------------------*/
+.section-feature {
+  margin-top: 5rem;
+  height: 80vh;
+  width: 100%;
+  padding: 0 5%;
+  position: relative;
+}
+
+.feature-left,
+.feature-rtop,
+.feature-rbot {
+  padding: 0.3rem;
+}
+
+/* Boxes position */
+
+.feature-left {
+  width: 30%;
+  height: 80vh;
+
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
+
+.feature-rtop {
+  width: 60%;
+
+  position: absolute;
+  top: 0;
+  right: 5%;
+}
+.feature-rbot {
+  width: 60%;
+
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+}
+
+/* feature Right boxes */
+.feature-rtop,
+.feature-rbot {
+  display: flex;
+  flex-direction: row;
+
+  height: 50%;
+}
+.feature-box {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+.feature-box img,
+.feature-left img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* content */
+.feature-content {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*----------------------------------------------------*/
+/*  SECTION NEWs                                      */
+/*----------------------------------------------------*/
+
+.section-news {
+  text-align: center;
+}
+
+.section-news p {
+  padding: 3rem 10%;
+}
+
+/*----------------------------------------------------*/
+/*  SECTION NEW PRODUCT                               */
+/*----------------------------------------------------*/
+.section-newProduct {
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.flex-bigbox {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.section-newProduct h2 {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.flex-box {
+  width: 50%;
+  height: 25rem;
+  /* margin-bottom: 5rem; */
+  padding: 0 0.5%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.product-box {
+  width: 50%;
+  height: 80%;
+  padding: 0.3% 0.5%;
+}
+
+.section-newProduct img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.img6 {
+  object-position: 80% 50%;
+}
+.img7 {
+  object-position: 50% 83%;
+}
+.img8 {
+  object-position: 30% 50%;
+}
+/*----------------------------------------------------*/
+/*  FOOTER                                            */
+/*----------------------------------------------------*/
+.footer-flex {
+  padding: 3rem 5%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.column-box li {
+  list-style-type: none;
+}
+.column-box li a {
+  color: #fff;
+}
+
+/* quick links */
+.quick-links ion-icon {
+  color: #fff;
+  font-size: 2rem;
+}
+.quick-links li,
+.payment-methods li {
+  display: inline;
+  padding-right: 1rem;
+}
+
+/*  */
+.footer-bot {
+  padding: 2rem 5% 4rem 5%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-bot h2:after {
+  margin-left: 2rem;
+}
+
+.bot-links {
+  padding-top: 1.5rem;
+
+  /* display: flex;
+  flex-direction: row;
+  align-items: center; */
+}
+.bot-links ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bot-links li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 0.8rem;
+}
+.bot-links li a {
+  color: #fff;
+}
+
+.bot-copy {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
