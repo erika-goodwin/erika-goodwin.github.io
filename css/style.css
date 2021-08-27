@@ -85,7 +85,8 @@ a {
 a:hover,
 .column-box li a:hover,
 .column-box li a ion-icon:hover,
-.bot-links li a:hover {
+.bot-links li a:hover,
+.product-box a:hover {
   color: #d7a48f;
 }
 
