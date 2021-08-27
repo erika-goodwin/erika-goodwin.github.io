@@ -13,19 +13,20 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+
 .article-box {
     width: 50%;
     padding: 0 7%;
   }
-.article-flex img {
-  width: 100%;
-  height: 40vh; 
- 
-  object-fit: cover;
 
+
+.article-flex img{
+    width: 100%;
+    height: 40vh; 
+   
+    object-fit: cover;
 }
-
-
 .article-flex ul {
   padding-left: 3rem;
 }

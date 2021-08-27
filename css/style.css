@@ -119,6 +119,10 @@ a:hover,
   width: 15rem;
   margin: 0 auto;
 }
+.btn-s {
+  width: 10rem;
+  margin: 0 auto;
+}
 .btn-b a {
   color: #fff;
   font-family: "Shadows Into Light", cursive;
@@ -128,6 +132,11 @@ a:hover,
   color: #fff;
   font-family: "Shadows Into Light", cursive;
   font-size: 1.5rem;
+}
+.btn-s a {
+  color: #fff;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.3rem;
 }
 
 /*----------------------------------------------------*/
