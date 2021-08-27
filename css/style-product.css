@@ -119,6 +119,9 @@ input {
 
 /* Smartphone */
 @media (max-width: 500px) {
+  .productbox {
+    padding: 1.5rem;
+  }
   .product-section {
     flex-direction: column;
   }
